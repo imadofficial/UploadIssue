@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plus.MainPage"
+             Shell.NavBarIsVisible="True"
+             Shell.TitleColor="White"
+             Shell.FlyoutBehavior="Disabled"
+             Title="Welcome to Plus!">
+
+    <Grid>
+        <VerticalStackLayout Margin="20,0,20,0" VerticalOptions="Center">
+            <Image Source="icon.png" Margin="0,0,0,0" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="130" WidthRequest="130"/>
+            
+            <Label Text="What you're seeing currently is a placeholder-update to the next generation of Plus." HorizontalTextAlignment="Center" HorizontalOptions="Center" FontFamily="SF-Regular" FontSize="16" />
+            
+            <Label Margin="0,20,0,0" Text="We know that you guys have been waiting but we deeply apologize for the wait but don't worry, the wait is almost over." HorizontalTextAlignment="Center" HorizontalOptions="Center" FontFamily="SF-Regular" FontSize="16" />
+            <Label Margin="0,20,0,0" Text="Expect information about release dates &amp; upcoming features on my Twitter profile soon." HorizontalTextAlignment="Center" HorizontalOptions="Center" FontFamily="SF-Regular" FontSize="16" />
+        </VerticalStackLayout>
+        
+        <Button FontFamily="SF-Bold" FontSize="16" Clicked="ViewTwitter" BackgroundColor="DodgerBlue" TextColor="White" Margin="20,0" HeightRequest="40" Text="Check Twitter / X" VerticalOptions="End"/>
+    </Grid>
+    
+</ContentPage>
